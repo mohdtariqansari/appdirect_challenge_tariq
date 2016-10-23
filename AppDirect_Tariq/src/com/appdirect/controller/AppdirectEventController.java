@@ -32,19 +32,10 @@ import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.ModelAndView;
 
 
-//import com.appdirect.client.AppDirectClient;
-//import com.appdirect.dao.ProfileDAO;
 import com.appdirect.event.model.Event;
-//import com.appdirect.event.model.EventResult;
 import com.appdirect.event.model.NotificationResponse;
-//import com.appdirect.event.model.Profile;
-//import com.appdirect.event.model.SubscriptionCancelEvent;
-//import com.appdirect.event.model.SubscriptionOrderEvent;
-//import com.appdirect.event.model.UserAssignedEvent;
-//import com.appdirect.event.model.UserUnassignedEvent;
 import com.appdirect.event.processor.AppDirectEventProcessor;
 import com.appdirect.event.processor.AppDirectEventProcessorFactory;
-//import com.appdirect.service.AppDirectEventHandler;
 import com.appdirect.oauth.OAuthClient;
 
 /**
